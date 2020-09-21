@@ -1,0 +1,75 @@
+body{
+  background-color: gray;
+}
+
+
+
+#albom_b{
+  text-align: center;
+  background-color: ivory;
+  width: 500px;
+  height: 700px;
+  margin: auto;
+}
+#album{
+  width: 450px;
+  height: 500px;
+
+}
+#icon{
+  text-align: center;
+}
+#setting_h,#stop_h,#play_h,#pause_h,#sound_h{
+  display: inline-block;
+  margin-left: 20px;
+  vertical-align: middle;
+  margin-top: -100px;
+}
+#setting_h:hover{
+  background-color: aqua; 
+}
+
+#stop_h:hover{
+  background-color: skyblue;
+}
+#play_h:hover{
+  transform: scale(2);
+  transition: 2s;
+}
+#pause_h:hover{
+  transform: rotate(90deg);
+}
+#sound_h:hover{
+  opacity:0.3;
+}
+#setting_h:active,#stop_h:active,#play_h:active,#pause_h:active,#sound_h:active{
+  background-color: red;
+}
+
+#setting{
+  width: 40px;
+  height: 40px;
+
+}
+#stop{
+  width: 40px;
+  height: 40px;
+
+}
+#play{
+  width: 40px;
+  height: 40px;
+
+}
+#pause{
+  width: 40px;
+  height: 40px;
+
+}
+#sound{
+  width: 40px;
+  height: 40px;
+}
+
+
+
